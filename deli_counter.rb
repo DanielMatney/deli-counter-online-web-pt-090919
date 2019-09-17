@@ -17,7 +17,7 @@ def take_a_number(array, name)
   counter = 0
   array << name
   array.each do
-    puts "Welcome, #{name}. You are number #{counter+1} in line."
-    counter += 1
-    end
+  counter += 1
+  end
+  puts "Welcome, #{name}. You are number #{counter+1} in line."
 end
