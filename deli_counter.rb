@@ -15,5 +15,9 @@ end
 
 def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length+1} in line."
-  name
+  counter = 0
+  array.length.times do
+    array[counter] = name
+    counter += 1
+  end
 end
