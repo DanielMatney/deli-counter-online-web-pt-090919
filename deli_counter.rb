@@ -19,4 +19,5 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number #{array[counter+1]} in line."
     counter += 1
     end
+    name
 end
