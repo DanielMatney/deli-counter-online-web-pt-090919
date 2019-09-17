@@ -1,5 +1,4 @@
 # Write your code here.
-global_counter = 0
 katz_deli = []
 def line(katz_deli)
   if katz_deli.length == 0
@@ -15,8 +14,8 @@ def line(katz_deli)
 end
 
 def take_a_number(array, name)
-  array[global_counter] = name
   counter = 0
+  array[counter] = name
   array.each do
     puts "Welcome, #{name}. You are number #{counter+1} in line."
     counter += 1
