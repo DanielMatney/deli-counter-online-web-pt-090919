@@ -16,6 +16,7 @@ end
 def take_a_number(array, name)
   counter = 0
   array.each do
+    array[counter] = name
     puts "Welcome, #{name}. You are number #{array[counter+1]} in line."
     counter += 1
     end
