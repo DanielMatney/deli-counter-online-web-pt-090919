@@ -20,5 +20,5 @@ end
 
 def now_serving(array)
   puts "Currently serving #{array.first}."
-  array.unshift
+  array.shift
 end
