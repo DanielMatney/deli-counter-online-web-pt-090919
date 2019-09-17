@@ -14,10 +14,5 @@ def line(katz_deli)
 end
 
 def take_a_number(array, name)
-  counter = 0
-  array << name
-  array.each do
-  counter += 1
-  end
-  puts "Welcome, #{name}. You are number #{counter+1} in line."
+  puts "Welcome, #{name}. You are number #{array.length} in line."
 end
