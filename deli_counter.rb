@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     counter = 0
     katz_deli.each do
-    puts "The line is currently: #{number[counter+1]}. #{katz_deli[counter+1]}"
+    puts "The line is currently: #{counter+1}. #{katz_deli[counter+1]}"
     counter += 1
     end
   end
