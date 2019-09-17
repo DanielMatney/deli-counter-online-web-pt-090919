@@ -9,7 +9,7 @@ def line(katz_deli)
       katz_deli[counter].insert(0, "#{counter+1}. ")
     counter += 1
     end
-    puts "The line is currently: #{katz_deli.join(" "}"
+    puts "The line is currently: #{katz_deli.join(" ")}"
   end
 end
 
