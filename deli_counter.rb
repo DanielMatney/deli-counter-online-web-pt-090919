@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     counter = 0
     katz_deli.each do
-      katz_deli[counter].insert
+      katz_deli[counter].insert(0, "#{counter+1}. ")
     counter += 1
     end
     puts "The line is currently: #{katz_deli}"
